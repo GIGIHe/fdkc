@@ -421,8 +421,9 @@ header.fixed {
   background: #fff;
   border-radius: .1rem;
   width: 2.3rem;
-  height: 3.2rem;
+  height: 3.4rem;
   padding: .1rem;
+  padding-top: .15rem;
   box-sizing: border-box;
 }
 .ul-five li h4{
