@@ -394,8 +394,6 @@ header.fixed {
   background: url(../images/line3.png) no-repeat center top;
   -webkit-background-size:7.5rem;
   background-size:7.5rem;
-  -webkit-overflow-scrolling: touch;  
-  overflow-y: scroll;  
 }
 .iframe{
 	width: 7.2rem;
@@ -404,7 +402,9 @@ header.fixed {
 	margin-top: -.06rem;
 	padding-top: .1rem;
 	background: #fff;
-	border-radius: 0 0 .1rem .1rem;
+  border-radius: 0 0 .1rem .1rem;
+  -webkit-overflow-scrolling: touch;  
+  overflow-y: scroll;  
 }
 .iframe iframe{
   width: 100%;
