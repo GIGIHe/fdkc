@@ -31,5 +31,16 @@ $(function(){
              $(".table").hide().eq(index).fadeIn(200);
         })
     })
- 
+    $(".m1 ul li a").each(function(index){
+        $(this).click(function(){
+            $(".m1 ul li a").removeClass('on')
+            $(this).addClass('on');
+        })
+    })
+    $(".ul-two li a").each(function(index){
+        $(this).click(function(){
+            $(".ul-two li a").removeClass('active')
+            $(this).addClass('active');
+        })
+    })
 })
